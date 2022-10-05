@@ -4,14 +4,19 @@ import arogya from "./Images/arogya.svg"
 import jio from "./Images/jio.svg"
 import mygov from "./Images/mygov.svg"
 import stepone from "./Images/Stepone.svg"
+import Header from './Header'
+import Headerb from './Headerb'
+import Footer from './Footer'
 
 const Partner = () => {
   return (
     <div className=' '>
+    <Header/>
+    <Headerb/>
     {/* Padding should be correct hear */}
-   <div className='bg-cyan-600  h-96 p- text-center'>
+   <div className='bg-cyan-600   p- text-center grid place-items-center h-fit mt-10'>
    <h1 className='text-white font-bold text-2xl  '>BECOME A COWIN PARTNER</h1>
-    <button className='bg-white rounded-full px-5 h-28 font-bold text-2xl text-red-700 pt-3 mb-3'>RegsiterNow</button>
+    <button className='bg-white rounded-full px-5 py-3 mt-5 h-28 font-bold text-2xl text-red-700 pt-3 mb-3'>RegsiterNow</button>
    </div>
     <h1 className='text-center font-bold text-3xl'>Our Partners</h1>
 {/* This div is for making center our Partners */}
@@ -109,6 +114,7 @@ const Partner = () => {
 
         </div>
     </div>
+    <Footer/>
 
     </div>
   )

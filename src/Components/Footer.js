@@ -4,6 +4,7 @@ import nha from './Images/nha.png'
 const Footer = () => {
   return (
     <>
+    <div className='overflow-hidden'>
     <div className='flex gap-10 bg-cyan-600 py-10 px-10'>
     <div>
         <h1 className='text-cyan-400 font-bold'>Vaccination Services</h1>
@@ -57,6 +58,7 @@ const Footer = () => {
     </div>
     
 
+    </div>
     </div>
     </>
   )

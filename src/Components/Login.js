@@ -10,7 +10,7 @@ const Login = () => {
     <>
     <Header/>
     <Headerb/>
-    <div class="grid h-screen place-items-center p-5 md:p-0">
+    <div class="grid md:h-screen place-items-center p-5 md:p-0 ">
   <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg border-2 border-gray-100 p-3">
    <div className='bg-cyan-600 md:w-60 py-20 rounded'> <img class="rounded h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg" src={clogin} alt="" /></div>
     <div class="px-5 mt-5 flex flex-col justify-start w-full">
@@ -28,7 +28,8 @@ const Login = () => {
     </div>
   </div>
 </div>
-<Footer/>
+<div className=''><Footer/></div>
+
 </>
   )
 }

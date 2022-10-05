@@ -6,11 +6,11 @@ import va from './Images/va.png'
 
 const Ddcards = () => {
   return (
-    <div className='p-5'>
-    <div className='flex flex-col md:flex-row gap-5'>
+    <div className='p-5 overflow-hidden'>
+    <div className='flex flex-col md:flex-row gap-1'>
     <div className='rounded bg-sky-500 w-full md:w-1/4 h-32 flex p-5'>
     <img src={reg} className='rounded-full w-16 h-16' alt="" />
-    <div className='pl-5'>
+    <div className='pl-2'>
         <h1 className='font-bold'>Registration</h1>
         <p className='font-bold'>98745</p>
     </div>
@@ -20,7 +20,7 @@ const Ddcards = () => {
     </div>
     <div className='rounded bg-pink-300 w-full md:w-1/4 h-32 flex p-5'>
     <img src={reg} className='rounded-full w-16 h-16' alt="" />
-    <div className='pl-5'>
+    <div className='pl-2'>
         <h1 className='font-bold'>Vaccinations</h1>
         <p className='font-bold'>155623</p>
     </div>
@@ -30,65 +30,65 @@ const Ddcards = () => {
     </div>
     <div className='rounded bg-orange-300 w-full md:w-1/4 h-32 flex p-5'>
     <img src={reg} className='rounded-full w-16 h-16' alt="" />
-    <div className='pl-5'>
+    <div className='pl-2'>
         <h1 className='font-bold'>Partially Vaccinated</h1>
         <p className='font-bold'>98745</p>
     </div>
-    <button className='ml-auto bg-gray-400  h-10 px-2 rounded'>Today</button>
+    <button className='ml-auto bg-gray-400  h-10 px-2 rounded block md:hidden lg:block'>Todays</button>
 
 
     </div>
     <div className='rounded bg-green-300 w-full md:w-1/4 h-32 flex p-5'>
     <img src={reg} className='rounded-full w-16 h-16' alt="" />
-    <div className='pl-5'>
+    <div className='pl-2'>
         <h1 className='font-bold'>Fully Vaccinated</h1>
         <p className='font-bold'>10745</p>
     </div>
-    <button className='ml-auto bg-gray-400  h-10 px-2 rounded'>Today</button>
+    <button className='ml-auto bg-gray-400  h-10 px-2 rounded  block md:hidden lg:block'>Today</button>
 
 
     </div>
 
     </div>
     {/* From hear New flex started */}
-    <div className='flex flex-col md:flex-row gap-5 pt-5'>
+    <div className='flex flex-col md:flex-row gap-1 pt-5'>
     <div className='rounded bg-orange-100 w-full md:w-1/4 h-32 flex p-5'>
     <img src={reg} className='rounded-full w-16 h-16' alt="" />
-    <div className='pl-5'>
+    <div className='pl-2'>
         <h1 className='font-bold'>12-14 Vaccinations</h1>
         <p className='font-bold'>10001</p>
     </div>
-    <button className='ml-auto bg-gray-400  h-10 px-2 rounded'>Today</button>
+    <button className='ml-auto bg-gray-400  h-10 px-2 rounded block md:hidden lg:block'>Today</button>
 
 
     </div>
     <div className='rounded bg-purple-300 w-full md:w-1/4 h-32 flex p-5'>
     <img src={reg} className='rounded-full w-16 h-16' alt="" />
-    <div className='pl-5'>
+    <div className='pl-2'>
         <h1 className='font-bold'>15-17Vaccinations</h1>
         <p className='font-bold'>155623</p>
     </div>
-    <button className='ml-auto bg-gray-400  h-10 px-2 rounded'>Today</button>
+    <button className='ml-auto bg-gray-400  h-10 px-2 rounded v'>Today</button>
 
 
     </div>
     <div className='rounded bg-pink-100 w-full md:w-1/4 h-32 flex p-5'>
     <img src={reg} className='rounded-full w-16 h-16' alt="" />
-    <div className='pl-5'>
+    <div className='pl-2'>
         <h1 className='font-bold'>18-59 Vaccinated</h1>
         <p className='font-bold'>98745</p>
     </div>
-    <button className='ml-auto bg-gray-400  h-10 px-2 rounded'>Today</button>
+    <button className='ml-auto bg-gray-400  h-10 px-2 rounded block md:hidden lg:block'>Today</button>
 
 
     </div>
     <div className='rounded bg-green-100 w-full md:w-1/4 h-32 flex p-5'>
     <img src={reg} className='rounded-full w-16 h-16' alt="" />
-    <div className='pl-5'>
+    <div className='pl-2'>
         <h1 className='font-bold'>60+ Vaccinated</h1>
         <p className='font-bold'>10745</p>
     </div>
-    <button className='ml-auto bg-gray-400  h-10 px-2 rounded'>Today</button>
+    <button className='ml-auto bg-gray-400  h-10 px-2 rounded block md:hidden lg:block'>Today</button>
 
 
     </div>
