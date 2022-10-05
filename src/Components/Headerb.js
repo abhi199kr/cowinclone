@@ -13,12 +13,12 @@ const Headerb = () => {
   <Link to="/Ddashboard"> <div className='text-white hover:text-yellow-500 font-bold'>
         Dashboard
     </div></Link> 
-    <div className='text-white hover:text-yellow-500 font-bold'>
+    <Link to="/vcertify"><div className='text-white hover:text-yellow-500 font-bold'>
         Verify Certificate
-    </div>
-    <div className='text-white hover:text-yellow-500 font-bold'>
+    </div></Link>
+   <Link to='/faq'> <div className='text-white hover:text-yellow-500 font-bold'>
         FAQ
-    </div>
+    </div></Link>
   <Link to="/partner"> <div className='text-white hover:text-yellow-500 font-bold'>
         Partners
     </div></Link> 

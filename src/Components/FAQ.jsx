@@ -1,13 +1,21 @@
 import React from 'react'
+import Footer from './Footer'
+import Header from './Header'
+import Headerb from './Headerb'
+import banner from "./Images/BannerImage.png"
 
 const FAQ = () => {
   return (
-    <div className='p-5'>
+    <>
+    <Header/>
+    <Headerb/>
+    <div className='py-10 px-10'>
     <div className=' border-2 border-gray-300 rounded'>
-    <p>ygfytl;</p>
+   
     <div className='flex flex-col md:flex-row p-5'>
-    <h1 className='grow text-cyan-600 font-bold text-2xl underline'>Frequently Asked Questions on Co-win</h1>
-    <button className='border-2 border-cyan-600 text-cyan-600 font-bold w-fit rounded-full px-5 py-2'>Download</button>
+    <h1 className='grow text-cyan-600 font-bold text-2xl border-b-4 border-cyan-600'><span className='hover:underline'>  Frequently Asked Questions on Co-win</span>
+  </h1>
+  <a href="https://prod-cdn.preprod.co-vin.in/assets/pdf/Frequently+Asked+Questions+(FAQs)+on+Co-WIN_03_09_2022.pdf">  <button className='border-2 border-cyan-600 text-cyan-600 font-bold w-fit rounded-full px-5 py-2'>Download</button></a>
     </div>
     {/* this div fro questions askec */}
     <div className='p-5'>
@@ -15,6 +23,8 @@ const FAQ = () => {
     <hr  className='mt-5 font-bold'/>
     <h1 className='pt-5 font-bold'>1.Where can I register for COVID-19 vaccination?</h1>
     <p className='pl-5'>You can open the Co-WIN portal using the link www.cowin.gov.in and click on the “Register/Sign In” tab to register for COVID-19 vaccination, and follow the steps thereafter.</p>
+    <img src={banner} alt="" />
+    
     <h1 className='pt-5 font-bold'>2.Is there a mobile app that needs to be installed to register for vaccination?</h1>
     <p className='pl-5'>
     There is no authorised mobile app for registering for vaccination in India except Aarogya Setu and Umang Apps. You need to log into the Co-WIN portal at cowin.gov.in. Alternatively, you can also register for vaccination through the Aarogya Setu App or Umang apps.
@@ -69,10 +79,10 @@ Yes, if you are 18 years or older (birth year 2004 or earlier), you can register
 
     </p>
     <h1 className='pt-5 font-bold'>
-    5.How many people can be registered in the Co-WIN portal through one mobile number?
+    8.Is there any registration charge to be paid?
 
     </h1>
-    <p className='pl-5'>Up to 6 people can be registered for vaccination using the same mobile number.
+    <p className='pl-5'>No, there is no registration charge.
     </p>
    
    
@@ -81,6 +91,8 @@ Yes, if you are 18 years or older (birth year 2004 or earlier), you can register
     </div>
       
     </div>
+    <Footer/>
+    </>
   )
 }
 
