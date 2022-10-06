@@ -11,7 +11,7 @@ import Vcertify from './Components/Vcertify';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter  basename="/">
     <Routes>
       <Route path="/" element={<Dashboard />}></Route>
       <Route path="/Ddashboard" element={<Ddashboard />}></Route>
